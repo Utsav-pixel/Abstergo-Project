@@ -1,0 +1,30 @@
+			CREATE DATABASE ABSTERGO;
+			USE ABSTERGO;
+
+			
+CREATE TABLE A_Register(Name Varchar(25) , Phone bigint(10) Primary Key, Address Varchar(50) , Pin int(6) Not Null);
+
+Insert into A_Register Values("Prem Prajapati","8238485644","231-Vijay Nagar Society,Aai Mata Road,Surat",395010);
+Insert into A_Register Values("Utsav Moradiya","7383946733","227-Vijay Nagar Society, Aai mata Road, Surat",395010);
+Insert into A_Register Values("Ankit Mishra","1234567890","A12,Ambika Heights",394221);
+Insert into A_Register Values("Madhav Vekarya","9876543210","Z-12,Radhe Shyam Nagar",395001);
+Insert into A_Register Values("Subhash Sahu","9999888877","G-27,Madhav Park",395010);
+Insert into A_Register Values("Abhimanyu Prajapati","8980924600","231-Vijay Nagar Society,Aai Mata Road,Surat",400002);
+Insert into A_Register Values("Ravindra Sharma","8511608620","12,XYZ Apartment",500000);
+Insert into A_Register Values("Mukesh Sharma","9987224753","231-Model Town",394120);
+Insert into A_Register Values("Rahul Dewedi","9233483636","Natur Valley",395010);
+Insert into A_Register Values("Harsh Goswami","9898989898","A-22,Madhav Park",400002);
+
+
+
+
+	
+
+
+
+			
+CREATE TABLE Report(Name Varchar(25) ,  Address Varchar(50) , Pin Varchar(6) ,Phone Varchar(10),Complain_time varchar(100),Officer_nm varchar(25));
+
+
+                       
+CREATE TABLE Non_Register(Name Varchar(25) , Phone bigint(10) Primary Key, Address Varchar(50) , Pin int(6) Not Null);
